@@ -1,0 +1,212 @@
+html {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 30px 100px 30px;
+           
+    
+}
+body {
+    margin: 0;       
+    
+}
+p {
+    margin-right: 2em;
+    font-weight: bold;
+    font-size: 0.9em;
+    font-weight: 500;
+   
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+button.redondo {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 0px 1.53em;
+    height: 2.5em;
+    width: 8em;
+    font-size: 0.8em;
+    /* agregado de propiedades para cambiar el color de boton cuando se pasa el puntero */
+    color: #1717FF;
+    cursor: pointer;
+
+}
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+div#header-left img {
+    width: 8em;
+}
+div#introduction-text {
+    padding: 10px 10px 10px;
+}
+div#header {
+    position: fixed;
+    background-color: aliceblue;
+    padding: 0;
+}
+div#medium {
+background-color: #201b24;
+color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+div#programas {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+div#capacitaciones {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+/*botones con hover*/    
+.redondo:hover{
+    background-color: black; 
+    color: white;
+}
+/*Agregado de las columnas */
+
+#primero {
+    width: 50%;
+    text-align: center;
+    color: white; 
+  }
+#primero p {
+    padding-left: 40px;
+    text-align: left;
+    
+  }  
+#localidades {
+    width: 16%;
+    text-align: center;
+  }
+#mentores {
+    width:16%;
+    text-align: center;
+}
+#mentores {
+    width:16%;
+    text-align: center;
+}
+/*Agregado de equipo */
+div#equipo {
+    /* background-color: #201b24;
+    color: white; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+
+/*Agregado de estilos de footer*/
+div#final {
+    background-color: #201b24;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+     #prime {
+        width:25%;
+        text-align: center;
+        font-size: 20px;
+        }
+    #prime img{
+        width: 75%;
+    }
+        #segu {
+            width:25%;
+            text-align: center;
+            font-size: 20px;
+                    }
+    #segu img{
+        width: 75%;
+    }                
+        #terc {
+            width:25%;
+            text-align: center;
+            font-size: 20px;
+        }
+    #terc img{
+        width: 75%;
+    }
+        #cuart {
+            width:25%;
+            text-align: center;
+            font-size: 20px;
+        }
+    #cuart img{
+        width: 75%;
+    }    
+
+    #pri {
+        width:50%;
+        text-align: left;
+        
+        
+    }  
+    #se {
+        width:50%;
+        text-align: center;
+    }
+    #se img{
+        width: 50%;
+    } 
+    #prim {
+    width:20%;
+    text-align: center;
+    color:white;
+    }
+    #seg {
+        width:20%;
+        text-align: left;
+        font-size: 14px;
+    }
+    #ter {
+        width:20%;
+        text-align: center;
+    }
+    #cuar {
+        width:20%;
+        text-align: center;
+    }
+    #quint {
+        width:20%;
+        text-align: center;
+    }
+
+    #pri img{
+        width: 50%;
+        text-align: left;
+    }
+    #se {
+        width:50%;
+        text-align: left;
+    }
+    h5{
+        color: gray;
+    }
+
+
+/* Agregado de media query dependiendo del tamaño de la pantalla */
+@media (width >= 3500px ) {
+    html {
+        font-size: 28px;
+    }
+}
+@media (width >= 2500px ) {
+    html {
+        font-size: 32px;
+    }
+}
